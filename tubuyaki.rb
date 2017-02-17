@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# -*- coding: utf-8 -*-
+# -*- coding: sjis -*-
 # vim: filetype=ruby
 
 module Tubuyaki
@@ -64,7 +64,7 @@ c.command proc {
  case saikoro
 
  when 4 then
- File.open("backup.txt", "a:utf-8") do |f|
+ File.open("backup.txt", "a:sjis") do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -73,7 +73,7 @@ c.command proc {
     end
     
  when 3 then   
- File.open("backup.txt", "a:utf-8") do |f|
+ File.open("backup.txt", "a:sjis") do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -82,7 +82,7 @@ c.command proc {
     end
     
  when 2 then
- File.open("backup.txt", "a:utf-8") do |f|
+ File.open("backup.txt", "a:sjis") do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -91,7 +91,7 @@ c.command proc {
 end	
 	
  when 1 then
- File.open("backup.txt", "a:utf-8") do |f|
+ File.open("backup.txt", "a:sjis") do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -100,7 +100,7 @@ end
 end	
 	
 when 0 then
-File.open("backup.txt", "a:utf-8") do |f|
+File.open("backup.txt", "a:sjis") do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -109,7 +109,7 @@ File.open("backup.txt", "a:utf-8") do |f|
     end
     
 else
-   File.open("backup.txt", "a:utf-8") do |f|
+   File.open("backup.txt", "a:sjis") do |f|
    TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),

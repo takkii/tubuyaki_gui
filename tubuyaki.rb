@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# -*- coding: sjis -*-
+# -*- coding: utf-8 -*-
 # vim: filetype=ruby
 
 module Tubuyaki

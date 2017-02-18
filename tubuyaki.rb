@@ -5,9 +5,8 @@
 module Tubuyaki
 
 def version
-require 'tubuyaki/version'
 print 'Tubuyaki_Version : '
-puts Tubuyaki::VERSION
+  puts '0.0.4'
 end
 
 def start
@@ -15,13 +14,13 @@ puts '取扱説明書'.center(60,'-')
 puts ''
 puts '
 
->tubuyaki
+>tubuyaki_gui
 　∟tubuyakiを起動します
 
->tubuyaki -v
+>tubuyaki_gui -v
 　∟tubuyakiのバージョンを表示します
 
->tubuyaki -h
+>tubuyaki_gui -h
 　∟tubuyakiのヘルプを表示します
 
 tubuyakiはMITライセンスです
@@ -37,7 +36,7 @@ def soft
 require 'tk'
 
 window = TkRoot.new{
-title 'tubuyaki'
+title 'tubuyaki_gui'
 resizable [0,0]
 }
 
@@ -64,7 +63,7 @@ c.command proc {
  case saikoro
 
  when 4 then
- File.open('backup.txt', 'a:sjis') do |f|
+ File.open('log/backup.txt', 'a:sjis') do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -73,7 +72,7 @@ c.command proc {
     end
     
  when 3 then   
- File.open('backup.txt', 'a:sjis') do |f|
+ File.open('log/backup.txt', 'a:sjis') do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -82,7 +81,7 @@ c.command proc {
     end
     
  when 2 then
- File.open('backup.txt', 'a:sjis') do |f|
+ File.open('log/log/backup.txt', 'a:sjis') do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -91,7 +90,7 @@ c.command proc {
 end	
 	
  when 1 then
- File.open('backup.txt', 'a:sjis') do |f|
+ File.open('log/backup.txt', 'a:sjis') do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -100,7 +99,7 @@ end
 end	
 	
 when 0 then
-File.open('backup.txt', 'a:sjis') do |f|
+File.open('log/backup.txt', 'a:sjis') do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -109,7 +108,7 @@ File.open('backup.txt', 'a:sjis') do |f|
     end
     
 else
-   File.open('backup.txt', 'a:sjis') do |f|
+   File.open('log/backup.txt', 'a:sjis') do |f|
    TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),

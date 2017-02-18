@@ -16,7 +16,7 @@ RubyGemsにあるtubuyakiとGithubで管理しているtubuyakiをもう少し改良したtubuyaki_g
 
 詳細
 
-backup.txtはutf-8指定しています。エンコーディングをお忘れなきように。
+backup.txtはsjis指定しました。エンコーディングをお忘れなきように。
 
 ## License
 MITライセンスです。

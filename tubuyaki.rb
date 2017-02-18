@@ -11,8 +11,9 @@ end
 
 def start
 puts '取扱説明書'.center(60,'-')
-puts ''
 puts '
+
+tubuyaki_gui = ruby tubuyaki.rb
 
 >tubuyaki_gui
 　∟tubuyakiを起動します
@@ -23,7 +24,7 @@ puts '
 >tubuyaki_gui -h
 　∟tubuyakiのヘルプを表示します
 
-tubuyakiはMITライセンスです
+tubuyaki_guiはMITライセンスです
 
 '
 puts''

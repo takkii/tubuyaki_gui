@@ -66,8 +66,8 @@ c.command proc {
  when 4 then
  File.open('backup.txt', 'a:sjis') do |f|
  TkLabel.new(window1,
-        :text => f.puts('#{entry.value}'),
-        :text => ('#{entry.value}'),
+        :text => f.puts("#{entry.value}"),
+        :text => ("#{entry.value}"),
         :fg => 'black',
         :bg => 'yellow').pack('fill'=>'x','padx' => 2.5,'pady' => 2.5)
     end
@@ -75,8 +75,8 @@ c.command proc {
  when 3 then   
  File.open('backup.txt', 'a:sjis') do |f|
  TkLabel.new(window1,
-        :text => f.puts('#{entry.value}'),
-        :text => ('#{entry.value}'),
+        :text => f.puts("#{entry.value}"),
+        :text => ("#{entry.value}"),
         :fg => 'black',
         :bg => 'white').pack('fill'=>'x','padx' => 2.5,'pady' => 2.5)
     end
@@ -84,8 +84,8 @@ c.command proc {
  when 2 then
  File.open('backup.txt', 'a:sjis') do |f|
  TkLabel.new(window1,
-        :text => f.puts('#{entry.value}'),
-        :text => ('#{entry.value}'),
+        :text => f.puts("#{entry.value}"),
+        :text => ("#{entry.value}"),
         :fg => 'white',
         :bg => 'black').pack('fill'=>'x','padx' => 2.5,'pady' => 2.5)
 end	
@@ -93,8 +93,8 @@ end
  when 1 then
  File.open('backup.txt', 'a:sjis') do |f|
  TkLabel.new(window1,
-        :text => f.puts('#{entry.value}'),
-        :text => ('#{entry.value}'),
+        :text => f.puts("#{entry.value}"),
+        :text => ("#{entry.value}"),
         :fg => 'black',
         :bg => 'green').pack('fill'=>'x','padx' => 2.5,'pady' => 2.5)
 end	
@@ -102,8 +102,8 @@ end
 when 0 then
 File.open('backup.txt', 'a:sjis') do |f|
  TkLabel.new(window1,
-        :text => f.puts('#{entry.value}'),
-        :text => ('#{entry.value}'),
+        :text => f.puts("#{entry.value}"),
+        :text => ("#{entry.value}"),
         :fg => 'white',
         :bg => 'red').pack('fill'=>'x','padx' => 2.5,'pady' => 2.5)
     end
@@ -111,8 +111,8 @@ File.open('backup.txt', 'a:sjis') do |f|
 else
    File.open('backup.txt', 'a:sjis') do |f|
    TkLabel.new(window1,
-        :text => f.puts('#{entry.value}'),
-        :text => ('#{entry.value}'),
+        :text => f.puts("#{entry.value}"),
+        :text => ("#{entry.value}"),
         :fg => 'white',
         :bg => 'blue').pack('fill'=>'x','padx' => 2.5,'pady' => 2.5)
     end

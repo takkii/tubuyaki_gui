@@ -13,6 +13,8 @@ def start
 puts '取扱説明書'.center(60,'-')
 puts '
 
+< 使い方 >
+
 tubuyaki_gui = ruby tubuyaki.rb
 
 >tubuyaki_gui
@@ -23,6 +25,17 @@ tubuyaki_gui = ruby tubuyaki.rb
 
 >tubuyaki_gui -h
 　∟tubuyakiのヘルプを表示します
+
+< フォルダ構成 >
+
+>tubuyaki
+ ∟log　―　backup.txt
+ ∟tubuyaki.rb
+ ∟etc...
+
+※ logフォルダとbackup.txtがなければ作ることでtubuyakiを記録できます。
+
+< ライセンス >
 
 tubuyaki_guiはMITライセンスです
 

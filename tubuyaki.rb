@@ -49,6 +49,9 @@ def soft
 
 require 'tk'
 
+dir_path = "./log"
+FileUtils.mkdir_p(dir_path) unless FileTest.exist?(dir_path)
+
 window = TkRoot.new{
 title 'tubuyaki_gui'
 resizable [0,0]
@@ -77,7 +80,7 @@ c.command proc {
  case saikoro
 
  when 4 then
- File.open('log/backup.txt', 'a:sjis') do |f|
+ File.open('log/backup.txt', 'a:sjis', perm=0666) do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -86,7 +89,7 @@ c.command proc {
     end
     
  when 3 then   
- File.open('log/backup.txt', 'a:sjis') do |f|
+ File.open('log/backup.txt', 'a:sjis', perm=0666) do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -104,7 +107,7 @@ c.command proc {
 end	
 	
  when 1 then
- File.open('log/backup.txt', 'a:sjis') do |f|
+ File.open('log/backup.txt', 'a:sjis', perm=0666) do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -113,7 +116,7 @@ end
 end	
 	
 when 0 then
-File.open('log/backup.txt', 'a:sjis') do |f|
+File.open('log/backup.txt', 'a:sjis', perm=0666) do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),
@@ -122,7 +125,7 @@ File.open('log/backup.txt', 'a:sjis') do |f|
     end
     
 else
-   File.open('log/backup.txt', 'a:sjis') do |f|
+   File.open('log/backup.txt', 'a:sjis', perm=0666) do |f|
    TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),

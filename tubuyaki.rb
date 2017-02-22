@@ -5,7 +5,7 @@
 module Tubuyaki
 
 def version
-print 'Tubuyaki_Gui is Version : '
+print 'Tubuyaki_Gui Version : '
   puts '0.0.5'
 end
 

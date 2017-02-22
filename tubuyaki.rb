@@ -33,7 +33,8 @@ tubuyaki_gui = ruby tubuyaki.rb
  ∟tubuyaki.rb
  ∟etc...
 
-※ logフォルダとbackup.txtがなければ作ることでtubuyakiを記録できます。
+ 自動でフォルダをなければ作成し、
+  テキストファイルを追加します。
 
 < ライセンス >
 
@@ -166,14 +167,3 @@ puts 'Please choose an option.'
 puts 'Dear my wife.'
 puts ''
 end
-
-# require 'bundler/setup'
-# You can add fixtures and/or initialization code here to make experimenting
-# with your gem easier. You can also use a different console, if you like.
-
-# (If you use this, don't forget to add pry to your Gemfile!)
-# require 'pry'
-# Pry.start
-
-# require 'irb'
-# IRB.start

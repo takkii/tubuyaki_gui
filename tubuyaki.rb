@@ -6,7 +6,7 @@ module Tubuyaki
 
 def version
 print 'Tubuyaki_Gui Version : '
-  puts '0.0.5'
+  puts '0.0.6'
 end
 
 def start
@@ -50,8 +50,7 @@ def soft
 
 require 'tk'
 
-dir_path = "./log"
-FileUtils.mkdir_p(dir_path) unless FileTest.exist?(dir_path)
+Dir.mkdir("log",0666) unless FileTest.exist?("log")
 
 window = TkRoot.new{
 title 'tubuyaki_gui'

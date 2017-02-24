@@ -6,7 +6,7 @@ module Tubuyaki
 
 def version
 print 'Tubuyaki_Gui Version : '
-  puts '0.0.6'
+  puts '0.0.6.1'
 end
 
 def start
@@ -98,7 +98,7 @@ c.command proc {
     end
     
  when 2 then
- File.open('log/log/backup.txt', 'a:sjis') do |f|
+ File.open('log/backup.txt', 'a:sjis') do |f|
  TkLabel.new(window1,
         :text => f.puts("#{entry.value}"),
         :text => ("#{entry.value}"),

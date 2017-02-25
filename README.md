@@ -12,54 +12,17 @@ RubyGemsにあるtubuyakiとGithubで管理しているtubuyakiをもう少し改良したtubuyaki_g
 
 かなり使いやすくなりました。
 
-***日本語で25文字～35文字位を目安にして、***
+***日本語で25文字～35文字位を目安です***
 
-ToDo管理に常時起動にしてお使いくださいませ。
-
-動作
-
->ruby tubuyaki.rb
-
-オフラインつぶやきツールが起動します
-
->ruby tubuyaki.rb -v
-
-versionを表示します
-
->ruby tubuyaki.rb -h
-
-オフラインつぶやきツールのヘルプを出力します
+ToDo管理に常時起動でお使いくださいませ。
 
 詳細
 
-backup.txtは
+backup.txtのファイル内エンコーディングは、
 
->sjis指定
+>SJIS 指定です。
 
-しました。
-
->zinbei,zinbeijettのためです。
+なぜなら、zinbei,zinbeijettのためです。
 
 ## License
 MITライセンスです
-
-##Windowsユーザ
-
-環境
-
->RubyInstallerでRubyをインストール
-
->PATHをつなぐのとdevkitをインストール
-
->Tcl/Tkをサポートにチェック
-
-
-例
-
->tubuyaki.rbのショートカットを作成→
-
->PATHを含むruby PATHを含むtubuyaki.rb
-
->ico画像の設定
-
-これで、タスクバーに表示するとワンクリックで起動できます。

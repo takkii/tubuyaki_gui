@@ -1,4 +1,4 @@
-![ツイートボタン表示](https://github.com/takkii/tubuyaki_gui/blob/master/tweet_icon.gif)
+![ツイートボタン表示](https://github.com/takkii/tubuyaki_gui/blob/master/tweet_icon.gif)![zinbeiのアイコン](https://github.com/takkii/tubuyaki_gui/blob/master/zinbei.ico)
 
 # Tubuyaki_GUI
 

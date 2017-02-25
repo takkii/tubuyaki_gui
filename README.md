@@ -39,4 +39,25 @@ backup.txtは
 >zinbei,zinbeijettのためです。
 
 ## License
-MITライセンスです。
+MITライセンスです
+
+##Windowsユーザ
+
+環境
+
+>RubyInstallerでRubyをインストール
+
+>PATHをつなぐのとdevkitをインストール
+
+>Tcl/Tkをサポートにチェック
+
+
+例
+
+>tubuyaki.rbのショートカットを作成→
+
+>PATHを含むruby PATHを含むtubuyaki.rb
+
+>ico画像の設定
+
+これで、タスクバーに表示するとワンクリックで起動できます。

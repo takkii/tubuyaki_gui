@@ -1,3 +1,5 @@
+![ツイートボタン表示](https://github.com/takkii/tubuyaki_gui/blob/master/tweet_icon.gif)
+
 # Tubuyaki_GUI
 
 RubyGemsにあるtubuyakiとGithubで管理しているtubuyakiをもう少し改良したtubuyaki_guiです。

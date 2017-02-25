@@ -4,9 +4,9 @@ RubyGemsにあるtubuyakiとGithubで管理しているtubuyakiをもう少し改良したtubuyaki_g
 
 変更点
 
->・log/backup.txtにつぶやきの履歴を保存するようにしたところです
+>log/backup.txtにつぶやきの履歴を保存するようにしたところです
 
->・logフォルダとbackup.txtは自動で作成されます
+>logフォルダとbackup.txtは自動で作成されます
 
 かなり使いやすくなりました。
 

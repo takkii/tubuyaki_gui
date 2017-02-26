@@ -64,7 +64,6 @@ title 'boyaki is shout!'
 TkLabel.new(nil,
 :text => 'やりたいことやってみよう...1.2.3...',
 :fg => 'blue').pack
-#家族、曰く私が眠くなるという独り言らしい
 
 entry = TkEntry.new.pack('side'=>'left')
 

@@ -8,7 +8,7 @@ module Tubuyaki
 
 def version
 print 'Tubuyaki_Gui Version : '
-  puts '0.0.6.1'
+  eval ("puts '0.0.6.1'")
 end
 
 def start

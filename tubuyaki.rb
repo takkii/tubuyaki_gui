@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 # vim: filetype=ruby
 
+require 'tanraku'
+
 module Tubuyaki
 
 def version

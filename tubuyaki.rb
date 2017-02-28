@@ -7,7 +7,7 @@ require 'tanraku'
 module Tubuyaki
 
 def version
-print 'Tubuyaki_Gui Version : '
+eval ("print 'Tubuyaki_Gui Version : '")
   eval ("puts '0.0.6.1'")
 end
 

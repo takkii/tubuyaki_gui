@@ -14,8 +14,8 @@ eval ("print 'Tubuyaki_Gui Version : '")
 end
 
 def start
-puts '取扱説明書'.center(60,'-')
-puts '
+eval ("puts '取扱説明書'.center(60,'-')")
+eval ("puts '
 
 < 使い方 >
 
@@ -44,9 +44,9 @@ tubuyaki_gui = ruby tubuyaki.rb
 
 tubuyaki_guiはMITライセンスです
 
-'
-puts''
-puts '取扱説明書'.center(60,'-')
+'")
+eval ("puts''")
+eval ("puts '取扱説明書'.center(60,'-')")
 end
 
 def soft
@@ -164,8 +164,8 @@ Tubuyaki.start
 when one.match(he)
 Tubuyaki.start
 else
-puts ''
-puts 'Please choose an option.'
-puts 'Dear my wife.'
-puts ''
+eval ("puts ''")
+eval ("puts 'Please choose an option.'")
+eval ("puts 'Dear my wife.'")
+eval ("puts ''")
 end

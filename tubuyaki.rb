@@ -4,8 +4,6 @@
 # vim: filetype=ruby
 
 require 'tanraku'
-# Needing install
-# gem install tanraku
 
 module Tubuyaki
   def version

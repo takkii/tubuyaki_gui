@@ -52,7 +52,7 @@ module Tubuyaki
 
     require 'tk'
 
-    Dir.mkdir('log',perm=0777) unless FileTest.exist?('log')
+    Dir.mkdir('log', perm = 0o777) unless FileTest.exist?('log')
 
     window = TkRoot.new do
       title 'tubuyaki_gui'
@@ -80,7 +80,7 @@ module Tubuyaki
       case saikoro
 
       when 4 then
-        File.open('log/backup.txt', 'a:utf-8',perm=0777) do |f|
+        File.open('log/backup.txt', 'a:utf-8', perm = 0o777) do |f|
           TkLabel.new(window1,
                       text: f.puts(entry.value.to_s),
                       text: entry.value.to_s,
@@ -89,7 +89,7 @@ module Tubuyaki
         end
 
       when 3 then
-        File.open('log/backup.txt', 'a:utf-8',perm=0777) do |f|
+        File.open('log/backup.txt', 'a:utf-8', perm = 0o777) do |f|
           TkLabel.new(window1,
                       text: f.puts(entry.value.to_s),
                       text: entry.value.to_s,
@@ -98,7 +98,7 @@ module Tubuyaki
         end
 
       when 2 then
-        File.open('log/backup.txt', 'a:utf-8',perm=0777) do |f|
+        File.open('log/backup.txt', 'a:utf-8', perm = 0o777) do |f|
           TkLabel.new(window1,
                       text: f.puts(entry.value.to_s),
                       text: entry.value.to_s,
@@ -107,7 +107,7 @@ module Tubuyaki
         end
 
       when 1 then
-        File.open('log/backup.txt', 'a:utf-8',perm=0777) do |f|
+        File.open('log/backup.txt', 'a:utf-8', perm = 0o777) do |f|
           TkLabel.new(window1,
                       text: f.puts(entry.value.to_s),
                       text: entry.value.to_s,
@@ -116,7 +116,7 @@ module Tubuyaki
         end
 
       when 0 then
-        File.open('log/backup.txt', 'a:utf-8',perm=0777) do |f|
+        File.open('log/backup.txt', 'a:utf-8', perm = 0o777) do |f|
           TkLabel.new(window1,
                       text: f.puts(entry.value.to_s),
                       text: entry.value.to_s,
@@ -125,7 +125,7 @@ module Tubuyaki
         end
 
       else
-        File.open('log/backup.txt', 'a:utf-8',perm=0777) do |f|
+        File.open('log/backup.txt', 'a:utf-8', perm = 0o777) do |f|
           TkLabel.new(window1,
                       text: f.puts(entry.value.to_s),
                       text: entry.value.to_s,

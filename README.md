@@ -5,7 +5,7 @@
 
 *Githubで管理しているtubuyakiをもう少し改良したtubuyaki_guiです*
 
-変更点
+説明文
 
 > ./tubuyaki2
 
@@ -15,15 +15,13 @@
 
 かなり使いやすくなりました。
 
->***日本語で25文字〜35文字位が目安です***
+>日本語で25文字〜35文字位が目安です
 
 >ToDo管理にお使いくださいませ。
 
-詳細
+### log/backup.txt
 
-### backup.txt
-
->0.0.x〜 encoding: sjis
+>0.0.x〜 Shift_JISを指定しました。
 
 <s>なぜなら、zinbei,zinbeijettのためです。</s>
 

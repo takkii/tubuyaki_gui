@@ -7,7 +7,7 @@
 
 変更点
 
->log/backup.txtにつぶやきの履歴を保存するようにしたところです
+> ./tubuyaki2
 
 >logフォルダとbackup.txtは自動で作成されます
 

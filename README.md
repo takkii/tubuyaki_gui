@@ -1,28 +1,29 @@
-![�c�C�[�g�{�^���\��](https://github.com/takkii/tubuyaki_gui/blob/master/tweet_icon.gif)![zinbei�̃A�C�R��](https://github.com/takkii/tubuyaki_gui/blob/master/zinbei.ico)
+![ツイートボタン表示](https://github.com/takkii/tubuyaki_gui/blob/master/tweet_icon.gif)![zinbeiのアイコン](https://github.com/takkii/tubuyaki_gui/blob/master/zinbei.ico)
 
-# Tubuyaki_GUI
+## Tubuyaki_GUI
 
-RubyGems�ɂ���tubuyaki��Github�ŊǗ����Ă���tubuyaki�������������ǂ���tubuyaki_gui�ł��B
+*Githubで管理しているtubuyakiをもう少し改良したtubuyaki_guiです*
 
-�ύX�_
+変更点
 
->log/backup.txt�ɂԂ₫�̗�����ۑ�����悤�ɂ����Ƃ���ł�
+>log/backup.txtにつぶやきの履歴を保存するようにしたところです
 
->log�t�H���_��backup.txt�͎����ō쐬����܂�
+>logフォルダとbackup.txtは自動で作成されます
 
-���Ȃ�g���₷���Ȃ�܂����B
+>※ 管理者権限をlogを生成するとき必要なときがあります
 
-***���{���25�����`35�����ʂ��ڈ��ł�***
+かなり使いやすくなりました。
 
-ToDo�Ǘ��ɂ��g�����������܂��B
+>***日本語で25文字〜35文字位が目安です***
 
-�ڍ�
+>ToDo管理にお使いくださいませ。
 
-backup.txt�̃t�@�C�����G���R�[�f�B���O�́A
+詳細
 
->SJIS �w��ł��B
+### backup.txt
 
-�Ȃ��Ȃ�Azinbei,zinbeijett�̂��߂ł��B
+>encoding: sjis
 
-## License
-MIT���C�Z���X�ł�
+<s>なぜなら、zinbei,zinbeijettのためです。</s>
+
+*※ 作成したとき、Windows環境を想定していました。*

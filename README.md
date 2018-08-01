@@ -1,4 +1,5 @@
-![ツイートボタン表示](https://github.com/takkii/tubuyaki_gui/blob/master/tweet_icon.gif)![zinbeiのアイコン](https://github.com/takkii/tubuyaki_gui/blob/master/zinbei.ico)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![GitHub release](https://img.shields.io/github/release/takkii/tubuyaki_gui.svg?style=flat)](GitHub)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/tubuyaki_gui.svg?style=flat)](GitHub)
+
 
 ## Tubuyaki_GUI
 

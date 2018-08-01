@@ -23,11 +23,13 @@
 
 ### backup.txt
 
->encoding: sjis
+>0.0.x〜 encoding: sjis
 
 <s>なぜなら、zinbei,zinbeijettのためです。</s>
 
 *※ 作成したとき、Windows環境を想定していました。*
+
+>1.0.x〜 UTF-8を指定しています。
 
 ```sh
 chmod 777 log

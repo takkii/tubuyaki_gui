@@ -70,7 +70,7 @@ module Tubuyaki
     entry = TkEntry.new.pack('side' => 'left')
 
     c = TkButton.new do
-      image TkPhotoImage.new('file' => 'tweet_icon.gif')
+      image TkPhotoImage.new('file' => '/usr/local/Cellar/tubuyaki_gui/1.0.0/bin/tweet_icon.gif')
       pack('fill' => 'x', 'padx' => 2.5, 'pady' => 2.5)
     end
 
